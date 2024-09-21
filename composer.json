@@ -1,9 +1,9 @@
 {
   "name": "tecnickcom/tc-lib-pdf",
-  "description": "PHP PDF Library",
+  "description": "LH PDF Library",
   "type": "library",
-  "homepage": "http://www.tecnick.com",
-  "license": "LGPL-3.0-or-later",
+  "homepage": "http://www.github.com/lucashelal/pdf",
+  "license": "CC BY-NC-ND 3.0",
   "keywords": [
     "tc-lib-pdf",
     "TCPDF",
@@ -13,25 +13,14 @@
   ],
   "authors": [
     {
-      "name": "Nicola Asuni",
-      "email": "info@tecnick.com",
+      "name": "Lucas Helal",
+      "email": "lucashelal@gmail.com",
       "role": "lead"
     }
   ],
   "require": {
-    "php": ">=8.0",
-    "ext-date": "*",
-    "ext-pcre": "*",
-    "tecnickcom/tc-lib-barcode": "^2.2",
-    "tecnickcom/tc-lib-color": "^2.2",
-    "tecnickcom/tc-lib-pdf-image": "^2.1",
-    "tecnickcom/tc-lib-pdf-font": "^2.5",
-    "tecnickcom/tc-lib-file": "^2.0",
-    "tecnickcom/tc-lib-pdf-encrypt": "^2.1",
-    "tecnickcom/tc-lib-unicode-data": "^2.0",
-    "tecnickcom/tc-lib-unicode": "^2.0",
-    "tecnickcom/tc-lib-pdf-page": "^4.2",
-    "tecnickcom/tc-lib-pdf-graph": "^2.2"
+        "php": ">=8.0",
+        "monolog/monolog": "2.3.*"
   },
   "require-dev": {
     "pdepend/pdepend": "2.13.0",
